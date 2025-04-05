@@ -1,68 +1,74 @@
-📌 Programação Lógica com Prolog
+Programação Lógica com Prolog
+<p align="center">Um guia completo sobre programação lógica utilizando a linguagem Prolog. Este repositório contém exercícios, materiais teóricos e projetos práticos para auxiliar no aprendizado e aprofundamento nesse paradigma de programação.</p>
+Introdução
 
-Este repositório foi criado para ser um guia completo sobre programação lógica, com foco na linguagem Prolog. Aqui, você encontrará uma coleção de exercícios, materiais teóricos e projetos práticos para aprender e aprofundar seus conhecimentos nessa poderosa abordagem de programação.
+A programação lógica é um paradigma de programação baseado em lógica matemática, onde um programa é uma coleção de fatos e regras que descrevem um problema. Diferente das linguagens imperativas, a programação lógica foca em o que deve ser verdade para uma solução ser válida, em vez de descrever como o problema deve ser resolvido.
 
-O que é Programação Lógica?
+O motor de inferência do Prolog utiliza técnicas como unificação, backtracking e resolução lógica para encontrar soluções. Esse modelo de programação é amplamente usado em áreas como inteligência artificial, processamento de linguagem natural e sistemas especialistas.
+Por que aprender Prolog?
 
-A programação lógica é um paradigma de programação baseado em lógica matemática, onde um programa é uma coleção de fatos e regras que descrevem um problema. Em vez de descrever como resolver um problema (como em linguagens imperativas), a programação lógica foca em o que deve ser verdade para uma solução ser válida.
+O Prolog (Programming in Logic) é uma das linguagens mais conhecidas do paradigma de programação lógica e apresenta diversas vantagens:
 
-O motor de inferência da linguagem usa técnicas como unificação, backtracking e resolução lógica para encontrar soluções para problemas declarados.
+    Paradigma declarativo → Você descreve o problema, e o interpretador encontra a solução.
 
-🔹 Por que aprender Prolog?
+    Ótimo para IA → Muito utilizado em sistemas de raciocínio automatizado e aprendizado de máquina.
 
-O Prolog (Programming in Logic) é uma das linguagens mais conhecidas da programação lógica e é amplamente utilizada em inteligência artificial, processamento de linguagem natural, sistemas especialistas, aprendizado de máquina e muito mais.
+    Expressividade → Ideal para modelar problemas complexos como genealogia, jogos, quebra-cabeças e planejamento.
 
-✔ Paradigma declarativo – você descreve o problema, não a solução passo a passo.
-✔ Ótimo para IA – usado em sistemas inteligentes e raciocínio automatizado.
-✔ Expressivo – ideal para modelar problemas complexos como genealogia, jogos, quebra-cabeças e planejamento.
-📂 O que você encontrará neste repositório?
+O que você encontrará neste repositório?
 
-📚 Teoria – Explicações detalhadas sobre os principais conceitos da programação lógica e do Prolog.
-💡 Exemplos – Códigos comentados para demonstrar desde conceitos básicos até tópicos avançados.
-📝 Exercícios – Lista de exercícios organizados por nível de dificuldade, com desafios práticos.
-🚀 Projetos – Aplicações reais usando Prolog, como resolutores de Sudoku, genealogia, sistemas especialistas e mais.
-🔗 Referências – Links para livros, artigos e materiais externos para estudo aprofundado.
-🛠 Como usar este repositório?
+📖 Teoria → Explicações detalhadas sobre os conceitos fundamentais da programação lógica e do Prolog.
+💡 Exemplos → Códigos comentados demonstrando desde conceitos básicos até tópicos avançados.
+📝 Exercícios → Lista de desafios organizados por nível de dificuldade.
+🚀 Projetos → Aplicações práticas, como resolutores de Sudoku, genealogia e sistemas especialistas.
+🔗 Referências → Links para livros, artigos e outros materiais para aprofundamento.
+Como usar este repositório?
+1. Clonar o repositório
 
-1️⃣ Clone o repositório no seu computador:
+Abra o terminal e execute os seguintes comandos:
 
 git clone https://github.com/seu-usuario/prolog-programming.git
 cd prolog-programming
 
-2️⃣ Explore as pastas para acessar materiais de estudo e exercícios.
+2. Explorar os materiais
 
-3️⃣ Execute os exemplos e resolva os desafios no seu interpretador Prolog.
+Navegue pelas pastas para acessar teoria, exemplos e exercícios.
+3. Executar códigos Prolog
 
-4️⃣ Contribua com o projeto! Veja como ajudar no arquivo CONTRIBUTING.md.
-🚀 Primeiros Passos com Prolog
+Utilize um interpretador Prolog (como SWI-Prolog) para rodar os exemplos e resolver os desafios.
+4. Contribuir com o projeto
 
-Se você ainda não tem o Prolog instalado, pode seguir este guia rápido:
+Caso queira contribuir com melhorias, consulte o arquivo CONTRIBUTING.md para saber como enviar sugestões e correções.
+Instalação do Prolog
 
-🔹 Instalar SWI-Prolog (recomendado):
-
-    No Linux (Debian/Ubuntu):
+Se você ainda não tem o Prolog instalado, siga as instruções abaixo:
+SWI-Prolog (recomendado)
+Linux (Debian/Ubuntu)
 
 sudo apt install swi-prolog
 
-No macOS:
+macOS
 
-    brew install swi-prolog
+brew install swi-prolog
 
-    No Windows: Baixe o instalador em swi-prolog.org.
+Windows
 
-🔹 Rodando um código Prolog
+Baixe o instalador em swi-prolog.org.
+Rodando um código Prolog
+
 Após instalar, abra o terminal e execute:
 
 swipl
 
-Isso abrirá o interpretador interativo do Prolog. Para carregar um arquivo, use:
+Isso abrirá o interpretador interativo do Prolog. Para carregar um arquivo e executá-lo, use:
 
 ?- [meu_arquivo].
 
-📌 Contribuindo
+Contribuindo
 
-Quer ajudar a tornar esse repositório ainda melhor?
-Confira as diretrizes em CONTRIBUTING.md e sinta-se à vontade para contribuir com exemplos, exercícios ou correções!
-📜 Licença
+Quer ajudar a melhorar este repositório?
+
+Confira as diretrizes em CONTRIBUTING.md e contribua com exemplos, exercícios ou melhorias na documentação.
+Licença
 
 Este repositório está licenciado sob a licença MIT, permitindo seu uso livre para fins educativos e acadêmicos.
