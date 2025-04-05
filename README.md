@@ -1,5 +1,3 @@
-Aqui está o conteúdo formatado corretamente para ser inserido diretamente no seu README.md:
-
 # Programação Lógica com Prolog
 
 <p align="center">
@@ -11,16 +9,16 @@ Aqui está o conteúdo formatado corretamente para ser inserido diretamente no s
 
 ## 📌 Introdução
 
-A **programação lógica** é um paradigma de programação baseado em lógica matemática, onde um programa é uma coleção de **fatos** e **regras** que descrevem um problema.  
+A **programação lógica** é um paradigma baseado na lógica matemática, onde um programa é uma coleção de **fatos** e **regras** que descrevem um problema.  
 Diferente das linguagens imperativas, a programação lógica foca em **o que deve ser verdade** para uma solução ser válida, em vez de descrever como o problema deve ser resolvido.  
 
-O motor de inferência do Prolog utiliza técnicas como **unificação**, **backtracking** e **resolução lógica** para encontrar soluções. Esse modelo de programação é amplamente usado em áreas como:  
+O motor de inferência do Prolog utiliza técnicas como **unificação**, **backtracking** e **resolução lógica** para encontrar soluções. Esse modelo é amplamente usado em:  
 
-- **Inteligência artificial**
-- **Processamento de linguagem natural**
-- **Sistemas especialistas**
-- **Aprendizado de máquina**
-- **Resolução de problemas matemáticos**
+- **Inteligência Artificial**  
+- **Processamento de Linguagem Natural**  
+- **Sistemas Especialistas**  
+- **Aprendizado de Máquina**  
+- **Resolução de Problemas Matemáticos**  
 
 ---
 
@@ -28,19 +26,19 @@ O motor de inferência do Prolog utiliza técnicas como **unificação**, **back
 
 O **Prolog (Programming in Logic)** é uma das linguagens mais conhecidas da programação lógica e apresenta diversas vantagens:  
 
-✅ **Paradigma declarativo** → Você descreve o problema, e o interpretador encontra a solução.  
-✅ **Ótimo para IA** → Muito utilizado em sistemas de raciocínio automatizado e aprendizado de máquina.  
-✅ **Expressividade** → Ideal para modelar problemas complexos como genealogia, jogos, quebra-cabeças e planejamento.  
+✔ **Paradigma declarativo** → Você descreve o problema, e o interpretador encontra a solução.  
+✔ **Ótimo para IA** → Muito utilizado em sistemas de raciocínio automatizado e aprendizado de máquina.  
+✔ **Expressividade** → Ideal para modelar problemas complexos como genealogia, jogos, quebra-cabeças e planejamento.  
 
 ---
 
 ## 📌 Conteúdo do Repositório
 
-📖 **Teoria** → Explicações detalhadas sobre os conceitos fundamentais da programação lógica e do Prolog.  
+📖 **Teoria** → Explicações detalhadas sobre os conceitos fundamentais do Prolog.  
 💡 **Exemplos** → Códigos comentados demonstrando desde conceitos básicos até tópicos avançados.  
 📝 **Exercícios** → Lista de desafios organizados por nível de dificuldade.  
-🚀 **Projetos** → Aplicações práticas, como resolutores de Sudoku, genealogia e sistemas especialistas.  
-🔗 **Referências** → Links para livros, artigos e outros materiais para aprofundamento.  
+🚀 **Projetos** → Aplicações práticas, como resolutores de Sudoku e sistemas especialistas.  
+🔗 **Referências** → Links para livros, artigos e materiais externos para estudo.  
 
 ---
 
@@ -48,51 +46,76 @@ O **Prolog (Programming in Logic)** é uma das linguagens mais conhecidas da pro
 
 ### 1️⃣ Clonar o Repositório  
 
-Abra o terminal e execute os seguintes comandos:  
-
 ```sh
 git clone https://github.com/seu-usuario/prolog-programming.git
 cd prolog-programming
+```
 
-2️⃣ Explorar os Materiais
+### 2️⃣ Explorar os Materiais  
 
-Navegue pelas pastas para acessar teoria, exemplos e exercícios.
-3️⃣ Executar Códigos Prolog
+Navegue pelas pastas para acessar teoria, exemplos e exercícios.  
 
-Utilize um interpretador Prolog (como SWI-Prolog) para rodar os exemplos e resolver os desafios.
-4️⃣ Contribuir com o Projeto
+### 3️⃣ Executar Códigos Prolog  
 
-Caso queira contribuir com melhorias, consulte o arquivo CONTRIBUTING.md para saber como enviar sugestões e correções.
-📌 Instalação do Prolog
+Use um interpretador Prolog (como SWI-Prolog) para rodar os exemplos e resolver os desafios.  
 
-Se você ainda não tem o Prolog instalado, siga as instruções abaixo:
-SWI-Prolog (recomendado)
-Linux (Debian/Ubuntu)
+### 4️⃣ Contribuir com o Projeto  
 
+Caso queira contribuir, consulte o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber como enviar sugestões e melhorias.  
+
+---
+
+## 📌 Instalação do Prolog
+
+Se você ainda não tem o Prolog instalado, siga as instruções abaixo:  
+
+### **SWI-Prolog (recomendado)**  
+
+#### **Linux (Debian/Ubuntu)**  
+```sh
 sudo apt install swi-prolog
+```
 
-macOS
-
+#### **macOS**  
+```sh
 brew install swi-prolog
+```
 
-Windows
+#### **Windows**  
+Baixe o instalador em [swi-prolog.org](https://www.swi-prolog.org/Download.html).  
 
-Baixe o instalador em swi-prolog.org.
-📌 Executando um Código Prolog
+---
 
-Após instalar, abra o terminal e execute:
+## 📌 Executando um Código Prolog  
 
+Após instalar, abra o terminal e execute:  
+
+```sh
 swipl
+```
 
-Isso abrirá o interpretador interativo do Prolog. Para carregar um arquivo e executá-lo, use:
+Isso abrirá o interpretador interativo do Prolog. Para carregar um arquivo e executá-lo, use:  
 
+```prolog
 ?- [meu_arquivo].
+```
 
-📌 Contribuindo
+---
 
-Quer ajudar a melhorar este repositório?
+## 📌 Contribuindo  
 
-Confira as diretrizes em CONTRIBUTING.md e contribua com exemplos, exercícios ou melhorias na documentação.
-📌 Licença
+Quer ajudar a melhorar este repositório?  
 
-Este repositório está licenciado sob a licença MIT, permitindo seu uso livre para fins educativos e acadêmicos.
+Confira as diretrizes em [CONTRIBUTING.md](CONTRIBUTING.md) e contribua com exemplos, exercícios ou melhorias na documentação.  
+
+---
+
+## 📌 Licença  
+
+Este repositório está licenciado sob a licença **MIT**, permitindo seu uso livre para fins educativos e acadêmicos.  
+
+---
+
+Agora é só começar a explorar e aprender Prolog!  
+
+Se tiver dúvidas ou sugestões, fique à vontade para abrir uma *issue* ou contribuir com o projeto. 🚀  
