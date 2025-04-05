@@ -1,13 +1,13 @@
 📌 Programação Lógica com Prolog
 
-Bem-vindo ao repositório Programação Lógica com Prolog! 🚀
-
 Este repositório foi criado para ser um guia completo sobre programação lógica, com foco na linguagem Prolog. Aqui, você encontrará uma coleção de exercícios, materiais teóricos e projetos práticos para aprender e aprofundar seus conhecimentos nessa poderosa abordagem de programação.
-🧠 O que é Programação Lógica?
+
+O que é Programação Lógica?
 
 A programação lógica é um paradigma de programação baseado em lógica matemática, onde um programa é uma coleção de fatos e regras que descrevem um problema. Em vez de descrever como resolver um problema (como em linguagens imperativas), a programação lógica foca em o que deve ser verdade para uma solução ser válida.
 
 O motor de inferência da linguagem usa técnicas como unificação, backtracking e resolução lógica para encontrar soluções para problemas declarados.
+
 🔹 Por que aprender Prolog?
 
 O Prolog (Programming in Logic) é uma das linguagens mais conhecidas da programação lógica e é amplamente utilizada em inteligência artificial, processamento de linguagem natural, sistemas especialistas, aprendizado de máquina e muito mais.
