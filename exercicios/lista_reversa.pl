@@ -1,11 +1,17 @@
 /*
-Defina a relação reversa (Lista, ListaReversa). Por exemplo: reversa ([a,b,c,d], X) X=[d,c,b,a].
+Usando de concatenação de lista ap/3, defina reversa/2. 
+
+Codifique as regras:
+
+(trivial) o reverso de uma lista vazia é também uma lista vazia.
+
+(geral) o reverso de uma lista é o reverso da cauda concatenada com a lista que contém somente a cabeça.
+
 */
 
 lista_reversa([],[]).
-lista_reversa([Cabeca|Cauda],R) :-
-    lista_reversa(Cauda, CaudaR), % inverte a cauda e salva o resultado em CaudaR.
-    append(CaudaR, [Cabeca], R), % adiciona a cabeca ao final da lista, concatenando a lista com a cauda reversa com a cabeca
-    !.
+lista_reversa()
+
+
 
 
