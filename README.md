@@ -47,8 +47,8 @@ O **Prolog (Programming in Logic)** é uma das linguagens mais conhecidas da pro
 ### 1️⃣ Clonar o Repositório  
 
 ```sh
-git clone https://github.com/seu-usuario/prolog-programming.git
-cd prolog-programming
+git clone https://github.com/PedroFinochio/Logic-Programming.git
+cd Logic-Programming
 ```
 
 ### 2️⃣ Explorar os Materiais  
