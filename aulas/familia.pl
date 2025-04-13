@@ -20,3 +20,7 @@ antecessor(X,Y):-mae(X,Z),antecessor(Z,Y).
 
 tem_filho(X):-pai(X,_).
 tem_filho(X):-mae(X,_).
+
+irmao_ou_irma(X,Y) :-
+    X \= Y,
+    pai(P,X),pai(P,Y) ; mae(M,X),mae(M,Y).
